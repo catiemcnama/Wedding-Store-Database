@@ -16,7 +16,7 @@ namespace Simpsons
     {
         Stock Item = new Stock();
         int count = 1;
-        public FRMItemAdd(Stock Item) //constructor, entry point into the class
+        public FRMItemAdd(Stock Item) 
         {
             InitializeComponent();
             this.Item = Item;           
